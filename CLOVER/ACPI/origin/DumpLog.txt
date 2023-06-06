@@ -1,0 +1,101 @@
+17:724  15:828  Found BIOS RSDP at FE020
+17:724  0:000  Saving ACPI tables from RSDP FE020 to EFI\CLOVER\ACPI\origin ...
+17:724  0:000   FE020: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36 -> RSDP.aml
+17:727  0:002    (Xsdt: 96FFE210, Rsdt: 96FFE124)
+17:727  0:000    96FFE210: 'XSDT', 'CB-01   ', Rev: 1, Len: 172 -> XSDT.aml
+17:730  0:002    96FFE124: 'RSDT', 'CB-01   ', Rev: 1, Len: 104 -> RSDT.aml
+17:732  0:002    Tables in Xsdt: 17
+17:732  0:000    0. 96FF7000: 'FACP', 'CB-01   ', Rev: 5, Len: 268 -> FACP.aml
+17:734  0:002        (Dsdt: 96FE7000, Facs: 96FBA000, XDsdt: 96FE7000, XFacs: 0)
+17:734  0:000        96FE7000: 'DSDT', 'CB-01   ', Rev: 1, Len: 52130 -> DSDT.aml
+17:741  0:006        96FBA000: 'FACS', Ver: 2, Len: 64 -> FACS.aml
+17:744  0:002    1. 96FFD000: 'SLIC', 'CB-01   ', Rev: 1, Len: 374 -> SLIC.aml
+17:746  0:002    2. 96FFC000: 'UEFI', 'CB-01   ', Rev: 1, Len: 566 -> UEFI.aml
+17:748  0:002    3. 96FFA000: 'FPDT', 'CB-01   ', Rev: 1, Len: 68 -> FPDT.aml
+17:751  0:002    4. 96FF9000: 'MSDM', 'CB-01   ', Rev: 3, Len: 85 -> MSDM.aml
+17:753  0:002    5. 96FF8000: 'ASF!', 'CB-01   ', Rev: 32, Len: 165 -> ASF!.aml
+17:755  0:002    6. 96FF6000: 'HPET', 'CB-01   ', Rev: 1, Len: 56 -> HPET.aml
+17:758  0:002    7. 96FF5000: 'APIC', 'CB-01   ', Rev: 3, Len: 140 -> APIC.aml
+17:760  0:002    8. 96FF4000: 'MCFG', 'CB-01   ', Rev: 1, Len: 60 -> MCFG.aml
+17:763  0:002    9. 96FE6000: 'SSDT', 'CB-01   ', Rev: 1, Len: 2041 -> SSDT-0-CB-01   .aml
+17:766  0:003    10. 96FE4000: 'BOOT', 'CB-01   ', Rev: 1, Len: 40 -> BOOT.aml
+17:769  0:002    11. 96FE3000: 'LPIT', 'CB-01   ', Rev: 1, Len: 92 -> LPIT.aml
+17:771  0:002    12. 96FE1000: 'ASPT', 'CB-01   ', Rev: 7, Len: 52 -> ASPT.aml
+17:774  0:002    13. 96FE0000: 'DBGP', 'CB-01   ', Rev: 1, Len: 52 -> DBGP.aml
+17:776  0:002    14. 96FD8000: 'SSDT', 'CB-01   ', Rev: 1, Len: 1337 -> SSDT-1-CB-01   .aml
+17:779  0:002    15. 96FD7000: 'SSDT', 'CB-01   ', Rev: 1, Len: 2776
+ Found hidden SSDT 4 pcs
+17:779  0:000        * 7C4ECA98: '', '', Rev: 0, Len: 0  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00       * 96E57618: 'SSDT', 'ApIst', Rev: 1, Len: 1450  53 53 44 54 AA 05 00 00 01 B9 50 6D 52 65 66 00 Internal length = 1450 -> SSDT-3x-ApIst.aml
+17:782  0:002        * 96E57C18: 'SSDT', 'Cpu0Cst', Rev: 1, Len: 979  53 53 44 54 D3 03 00 00 01 99 50 6D 52 65 66 00 Internal length = 979 -> SSDT-4x-Cpu0Cst.aml
+17:784  0:002        * 96E61C18: 'SSDT', 'ApCst', Rev: 1, Len: 281  53 53 44 54 19 01 00 00 01 D5 50 6D 52 65 66 00 Internal length = 281 -> SSDT-5x-ApCst.aml
+17:787  0:003   -> SSDT-2-CB-01   .aml
+17:790  0:002    16. 96FD3000: 'SSDT', 'CB-01   ', Rev: 1, Len: 13510 -> SSDT-6-CB-01   .aml
+17:793  0:002    Tables in Rsdt: 17
+17:793  0:000    0. 96FF7000: 'FACP', 'CB-01   ', Rev: 5, Len: 268
+17:793  0:000        (Dsdt: 96FE7000, Facs: 96FBA000, XDsdt: 96FE7000, XFacs: 0)
+17:793  0:000        96FE7000: 'DSDT', 'CB-01   ', Rev: 1, Len: 52130
+17:794  0:001        96FBA000: 'FACS', Ver: 2, Len: 64
+17:794  0:000    1. 96FFD000: 'SLIC', 'CB-01   ', Rev: 1, Len: 374
+17:794  0:000    2. 96FFC000: 'UEFI', 'CB-01   ', Rev: 1, Len: 566
+17:794  0:000    3. 96FFA000: 'FPDT', 'CB-01   ', Rev: 1, Len: 68
+17:794  0:000    4. 96FF9000: 'MSDM', 'CB-01   ', Rev: 3, Len: 85
+17:794  0:000    5. 96FF8000: 'ASF!', 'CB-01   ', Rev: 32, Len: 165
+17:794  0:000    6. 96FF6000: 'HPET', 'CB-01   ', Rev: 1, Len: 56
+17:794  0:000    7. 96FF5000: 'APIC', 'CB-01   ', Rev: 3, Len: 140
+17:794  0:000    8. 96FF4000: 'MCFG', 'CB-01   ', Rev: 1, Len: 60
+17:794  0:000    9. 96FE6000: 'SSDT', 'CB-01   ', Rev: 1, Len: 2041
+17:794  0:000    10. 96FE4000: 'BOOT', 'CB-01   ', Rev: 1, Len: 40
+17:794  0:000    11. 96FE3000: 'LPIT', 'CB-01   ', Rev: 1, Len: 92
+17:794  0:000    12. 96FE1000: 'ASPT', 'CB-01   ', Rev: 7, Len: 52
+17:794  0:000    13. 96FE0000: 'DBGP', 'CB-01   ', Rev: 1, Len: 52
+17:794  0:000    14. 96FD8000: 'SSDT', 'CB-01   ', Rev: 1, Len: 1337
+17:794  0:000    15. 96FD7000: 'SSDT', 'CB-01   ', Rev: 1, Len: 2776
+17:794  0:000    16. 96FD3000: 'SSDT', 'CB-01   ', Rev: 1, Len: 13510
+17:794  0:000  Found UEFI Acpi 2.0 RSDP at 7616A000
+17:794  0:000  Printing ACPI tables from RSDP 7616A000 ...
+17:794  0:000   7616A000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+17:794  0:000    (Xsdt: 96FFE210, Rsdt: 96FFE124)
+17:794  0:000    96FFE210: 'XSDT', 'CB-01   ', Rev: 1, Len: 172
+17:794  0:000    96FFE124: 'RSDT', 'CB-01   ', Rev: 1, Len: 104
+17:794  0:000    Tables in Xsdt: 17
+17:794  0:000    0. 96FF7000: 'FACP', 'CB-01   ', Rev: 5, Len: 268
+17:794  0:000        (Dsdt: 96FE7000, Facs: 96FBA000, XDsdt: 96FE7000, XFacs: 0)
+17:794  0:000        96FE7000: 'DSDT', 'CB-01   ', Rev: 1, Len: 52130
+17:795  0:001        96FBA000: 'FACS', Ver: 2, Len: 64
+17:795  0:000    1. 96FFD000: 'SLIC', 'CB-01   ', Rev: 1, Len: 374
+17:795  0:000    2. 96FFC000: 'UEFI', 'CB-01   ', Rev: 1, Len: 566
+17:795  0:000    3. 96FFA000: 'FPDT', 'CB-01   ', Rev: 1, Len: 68
+17:795  0:000    4. 96FF9000: 'MSDM', 'CB-01   ', Rev: 3, Len: 85
+17:795  0:000    5. 96FF8000: 'ASF!', 'CB-01   ', Rev: 32, Len: 165
+17:795  0:000    6. 96FF6000: 'HPET', 'CB-01   ', Rev: 1, Len: 56
+17:795  0:000    7. 96FF5000: 'APIC', 'CB-01   ', Rev: 3, Len: 140
+17:795  0:000    8. 96FF4000: 'MCFG', 'CB-01   ', Rev: 1, Len: 60
+17:795  0:000    9. 96FE6000: 'SSDT', 'CB-01   ', Rev: 1, Len: 2041
+17:795  0:000    10. 96FE4000: 'BOOT', 'CB-01   ', Rev: 1, Len: 40
+17:795  0:000    11. 96FE3000: 'LPIT', 'CB-01   ', Rev: 1, Len: 92
+17:795  0:000    12. 96FE1000: 'ASPT', 'CB-01   ', Rev: 7, Len: 52
+17:795  0:000    13. 96FE0000: 'DBGP', 'CB-01   ', Rev: 1, Len: 52
+17:795  0:000    14. 96FD8000: 'SSDT', 'CB-01   ', Rev: 1, Len: 1337
+17:795  0:000    15. 96FD7000: 'SSDT', 'CB-01   ', Rev: 1, Len: 2776
+17:795  0:000    16. 96FD3000: 'SSDT', 'CB-01   ', Rev: 1, Len: 13510
+17:795  0:000    Tables in Rsdt: 17
+17:795  0:000    0. 96FF7000: 'FACP', 'CB-01   ', Rev: 5, Len: 268
+17:795  0:000        (Dsdt: 96FE7000, Facs: 96FBA000, XDsdt: 96FE7000, XFacs: 0)
+17:795  0:000        96FE7000: 'DSDT', 'CB-01   ', Rev: 1, Len: 52130
+17:797  0:001        96FBA000: 'FACS', Ver: 2, Len: 64
+17:797  0:000    1. 96FFD000: 'SLIC', 'CB-01   ', Rev: 1, Len: 374
+17:797  0:000    2. 96FFC000: 'UEFI', 'CB-01   ', Rev: 1, Len: 566
+17:797  0:000    3. 96FFA000: 'FPDT', 'CB-01   ', Rev: 1, Len: 68
+17:797  0:000    4. 96FF9000: 'MSDM', 'CB-01   ', Rev: 3, Len: 85
+17:797  0:000    5. 96FF8000: 'ASF!', 'CB-01   ', Rev: 32, Len: 165
+17:797  0:000    6. 96FF6000: 'HPET', 'CB-01   ', Rev: 1, Len: 56
+17:797  0:000    7. 96FF5000: 'APIC', 'CB-01   ', Rev: 3, Len: 140
+17:797  0:000    8. 96FF4000: 'MCFG', 'CB-01   ', Rev: 1, Len: 60
+17:797  0:000    9. 96FE6000: 'SSDT', 'CB-01   ', Rev: 1, Len: 2041
+17:797  0:000    10. 96FE4000: 'BOOT', 'CB-01   ', Rev: 1, Len: 40
+17:797  0:000    11. 96FE3000: 'LPIT', 'CB-01   ', Rev: 1, Len: 92
+17:797  0:000    12. 96FE1000: 'ASPT', 'CB-01   ', Rev: 7, Len: 52
+17:797  0:000    13. 96FE0000: 'DBGP', 'CB-01   ', Rev: 1, Len: 52
+17:797  0:000    14. 96FD8000: 'SSDT', 'CB-01   ', Rev: 1, Len: 1337
+17:797  0:000    15. 96FD7000: 'SSDT', 'CB-01   ', Rev: 1, Len: 2776
+17:797  0:000    16. 96FD3000: 'SSDT', 'CB-01   ', Rev: 1, Len: 13510
